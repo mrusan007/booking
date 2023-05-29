@@ -12,7 +12,7 @@ describe('Testing homepage for presence of elements and doing a simple search fo
 
   })
 
-  it.only('Make a search and check if there are some results', () => {
+  it('Make a search and check if there are some results', () => {
 
     HomePage.typeInSearchBar('Zagreb')
     HomePage.pickFiveDaysDuration()
